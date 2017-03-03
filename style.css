@@ -1,0 +1,22 @@
+
+body {
+	background-color:#FFFFCC;
+}
+#maphotos {
+width: 200px;
+-webkit-border-radius: 50px;
+border-radius: 50px;
+}
+
+.titr  {
+	text-align: center; 
+	color:#CCCCCC;
+	font-style: italic;
+	border-style: groove;
+}
+
+p {
+    font-style: italic;
+}
+
+

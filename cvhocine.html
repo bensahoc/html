@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>	
+	<meta charset="UTF-8">
+	<link type="text/css" rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="cv.js"></script>
+      <script language="javascript" type="text/javascript">
+	  function validation() {
+  var contenu_num = $('#telephone').val(); 
+     valider_telephone(contenu_num);
+	  }
+	   
+	  function valider_email(email){
+		  if(email.incules('@')== false)
+		  window.alert("email non valide");
+	  }
+	  function valider_telephone(num){
+		  var x = num;
+          var valide= /^0[1-6]\d{8}$/;
+		  if(valide.test(num)==false)
+		  window.alert("votre telephone doit contenir des numero");
+		  if (x.length != 10 )
+		  alert("téléphone non valide");
+	  }
+      </script>
+
+	</head>
+	
+<body>
+<div class="moncv">
+	<div  class="photo">
+	 <img id="maphotos" src="hocine.jpg" alt="Hocine bensaadi"/>
+	</div>
+	
+	<div id="idinfodetail" class="infodetail">
+	 <ul>
+        <li>BENSAADI HOCINE </li>
+		<li><em>adresse: 1 chemin Jacques laplace 69120 vaulx en velin</em></li>
+		<li><em>telephone: 0781717541<em></li>
+		<li></em>email:<a href="mailto:y.bensaadi@gmail.com"> y.bensaadi@gmail.com</a></em></li>
+	</ul>	 
+	
+	</div>
+</div>	
+	
+	  
+	<div id="titre" class="titr"> 
+	   <h1>Développeur</h1>
+	 </div>
+	   
+	   
+	
+	   
+		<div id="titre1" class="titr"> 
+	         <h1>Formation<button style="font-size: 50px;" onclick="afficher('#formation');">cacher</button></h1>
+	    
+		</div>
+		<div id="formation" class="formation">
+           
+	         <div class="formationtitre">
+                 <h3>2016-2017:Compétence complémentaire en informatique</h3> 	
+	        </div>
+            <div class="formationdescription">
+                 <p>université lyon1,france <a href="http://www.univ-lyon1.fr/">université lyon1</a></p> 	
+	        </div>
+	    
+		    
+	        <div class="formationtitr">
+                 <h3>2015-2016:Master2: Ingenierie et controle des materiaux</h3> 	
+	        </div>
+            <div class="formationdescription">
+                 <p> universite de rouen, France <a href="http://www.univ-rouen.fr/">université Rouen</a></p> 	
+	        </div>
+	    
+		    
+	        <div class="formationtitr">
+                 <h3>2012-2015:Ingenieur d'etat en génie des matériaux </h3> 	
+	        </div>
+            <div class="formationdescription">
+                 <p> Ecole National Polytechnique d'Alger, Algerie <a href="http://www.enp.edu.dz/"> enp </a></p> 	
+	        </div>
+	    
+		    
+	         <div class="formationtitr">
+                 <h3>2012-2015:Classe préparatoir Sciences et Technique </h3> 	
+	        </div>
+            <div class="formationdescription">
+                 <p>Ecole Préparatoir Science et technique Tlemcen, Algerie <a href="http://www.epst-tlemcen.dz/"> EPST </a></p> 	
+	         </div>
+	</div>    
+	
+
+		 <div class="titr"> 
+	         <h1> Experience<button style="font-size: 50px;" onclick="afficher('#experience');">cacher</button></h1>
+	     </div>
+	   
+		   <div id="experience" class="experience"> 
+	         <div class="jobtitle">
+                 <h3>mars 2016-septembre 2016:Stage de master: Contrôle de retrait volumique de pièces injectés</h3> 	
+	        </div>
+            <div class="jobdiscription">
+                 <p> APtar pharma, val de reuil, France <a href="https://pharma.aptar.com/fr">Aptarpharma </a></p> 	
+	        </div>
+	    
+		    
+	         <div class="jobtitle">
+                 <h3>octobre 2015-janvier 2016:Projet de recherche: microstructure en peau des polymères semi cristallins commerciaux par analyse thermique avancée</h3> 	
+	        </div>
+            <div classe="jobdiscription">
+                 <p>Laboratoire AMME-LECAP, Université de Rouen,France  <a href="http://www.ammelecap.com/">AMME-LECAP </a></p> 	
+	        </div>
+	    
+		    
+	         <div class="jobtitle">
+                 <h3>mars 2015-juin 2015:Stage de fin d’étude: Étude de l'efficacité d’inhibition contre la corrosion de l'acier API P110 avec différentes microstructures</h3> 	
+	        </div>
+            <div class="jobdiscription">
+                 <p> Centre de recherche et de de Développement,sonatrach, Boumerdes <a href="http://www.sonatrach.dz/"> sonatrach</a></p> 	
+	        </div>
+	    
+	 </div>
+	 
+	<div id="competance" class="Comptence">
+	     <div id="titre3" class="titr"> 
+	         <h1>Compétence<button style="font-size: 50px;" onclick="afficher('#comp');">compétance</button></h1>
+	     </div>
+		 <div id="comp" class="comp">
+	        <ul>
+                <li>Langages de programmation:<p>Java, shell script, Python, C </p></li> 	
+	         	<li>Systèmes d'exploitation:<p>Windows, Linux (Debian, Ubuntu, Fedora)</p></li>
+	            <li>SGBD:<p>Oracle, Mysql, Postgres</p></li> 
+	            <li>Réseaux:<p>TCP/IP </p></li>
+		        <li>Autres:<p>Git, Svn, Jenkins,  VmWare, OpenStack, WebServices (Soap,Rest)</p></li>
+	            <li>Langues:
+				    <ul>
+					    <li>Arabe, Français:<p>bilingue</p></li>
+						<li>Anglais:<p>Très bon niveau technique</p></li>
+		            </ul>
+				</li>	
+	        </ul>
+         </div>	    		
+		
+		
+		
+	</div>     
+	
+<form action="y.bensaadi@gmail.com" method="post">
+ <div>
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" />
+    </div>
+	<div>
+        <label for="telephone">téléphone :</label>
+        <input type="tel" id="telephone" />
+    </div>
+	<div>
+<label for="courriel">Courriel :</label>
+        <input type="email" id="courriel" />
+    </div>
+	<div>
+	 <label for="message">Message :</label>
+        <textarea id="message"></textarea>
+    </div>
+	<div class="button">
+        <button type="submit" ;onclick="validation()">Envoyer votre message</button>
+    </div>
+</form>
+</form>
+ 
+</body> 
+</html>
+	
+	
+
