@@ -1,6 +1,6 @@
 
 body {
-	background-color:#FFFFCC;
+	background-color:#FFFFFF;
 }
 #maphotos {
 width: 200px;
@@ -13,10 +13,13 @@ border-radius: 50px;
 	color:#CCCCCC;
 	font-style: italic;
 	border-style: groove;
+	background-color:#7133FF;
 }
 
 p {
     font-style: italic;
 }
 
-
+.infodetail {
+text-align: right;
+}
